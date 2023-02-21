@@ -1,0 +1,70 @@
+
+.body{
+    margin: 0;
+}
+
+
+.navbar{
+    background-color:#ffad33;
+    display: flex;
+    align-items: center;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar.logo{
+    height: 60px;
+    margin: 5px;
+}
+.nav-items{
+    text-decoration:none ;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 21px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    width: 100px;
+    text-align: center;
+}
+.food-categories-container{
+    display: flex;
+     justify-content: space-around;
+
+}
+.food-category-card{
+    background-color: #aa80ff;
+    width: 250px;
+    margin: 10px;
+    padding: 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+.food-category-card-img{
+    width: 150px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 0 0 5px 2px grey;
+}
+.food-category-card{
+    text-align: center;
+    font-size: 30px;
+}
+.Explore-More-btn{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#ffad33;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 8px;
+    cursor: pointer;
+}
